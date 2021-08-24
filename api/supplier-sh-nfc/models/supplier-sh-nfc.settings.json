@@ -1,19 +1,39 @@
 {
   "kind": "collectionType",
-  "collectionName": "suppliers",
+  "collectionName": "supplier_sh_nfcs",
   "info": {
-    "name": "supplier",
-    "description": ""
+    "name": "supplier_sh_nfc"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "supplier_name": {
+      "type": "string"
+    },
+    "bullet_point_01": {
+      "type": "richtext"
+    },
+    "bullet_point_02": {
+      "type": "richtext"
+    },
+    "bullet_point_03": {
+      "type": "richtext"
+    },
+    "bullet_point_04": {
+      "type": "richtext"
+    },
+    "bullet_point_05": {
+      "type": "richtext"
+    },
+    "bullet_point_06": {
+      "type": "richtext"
+    },
     "logo": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -25,7 +45,7 @@
       "pluginOptions": {}
     },
     "product": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -35,18 +55,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "name": {
-      "type": "string"
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "importance": {
-      "type": "integer"
-    },
-    "qr_url": {
-      "type": "string"
     }
   }
 }

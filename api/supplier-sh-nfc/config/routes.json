@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/supplier-sh-nfcs",
+      "handler": "supplier-sh-nfc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/supplier-sh-nfcs/count",
+      "handler": "supplier-sh-nfc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/supplier-sh-nfcs/:id",
+      "handler": "supplier-sh-nfc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/supplier-sh-nfcs",
+      "handler": "supplier-sh-nfc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/supplier-sh-nfcs/:id",
+      "handler": "supplier-sh-nfc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/supplier-sh-nfcs/:id",
+      "handler": "supplier-sh-nfc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
