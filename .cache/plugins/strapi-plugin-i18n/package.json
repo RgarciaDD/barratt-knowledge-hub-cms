@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "strapi-plugin-i18n@3.6.6",
+      "D:\\dev\\Javascript\\barratt-knowledge-hub-cms"
+    ]
+  ],
+  "_from": "strapi-plugin-i18n@3.6.6",
+  "_id": "strapi-plugin-i18n@3.6.6",
+  "_inBundle": false,
+  "_integrity": "sha512-DXBvALrDFVceSDBhsi5uX39qPWPltfaNnkde89JBDYksi8fi5Nruu0qsnTIFlxwdCzMd0i4WMiCUr8P0g3dPBg==",
+  "_location": "/strapi-plugin-i18n",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-i18n@3.6.6",
+    "name": "strapi-plugin-i18n",
+    "escapedName": "strapi-plugin-i18n",
+    "rawSpec": "3.6.6",
+    "saveSpec": null,
+    "fetchSpec": "3.6.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-i18n/-/strapi-plugin-i18n-3.6.6.tgz",
+  "_spec": "3.6.6",
+  "_where": "D:\\dev\\Javascript\\barratt-knowledge-hub-cms",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "p-map": "4.0.0",
+    "pluralize": "8.0.0",
+    "strapi-utils": "3.6.6"
+  },
+  "description": "This plugin enables to create, to read and to update content in different languages, both from the Admin Panel and from the API",
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "e63fb9d5093de3c099a487e7d87f48ffb8029a24",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "name": "strapi-plugin-i18n",
+  "strapi": {
+    "name": "Internationalization",
+    "icon": "round-language",
+    "description": "i18n.plugin.description",
+    "required": false
+  },
+  "version": "3.6.6"
+}

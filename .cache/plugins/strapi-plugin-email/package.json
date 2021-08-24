@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      "strapi-plugin-email@3.6.6",
+      "D:\\dev\\Javascript\\barratt-knowledge-hub-cms"
+    ]
+  ],
+  "_from": "strapi-plugin-email@3.6.6",
+  "_id": "strapi-plugin-email@3.6.6",
+  "_inBundle": false,
+  "_integrity": "sha512-JgIrBpHSqmcvfl1RWkYuRh61Qq6P8qYEZbGO7vn2oKSvCGJfgawNfYuqige8RKhkacuh+YEqH+2MUTE/FLqNBQ==",
+  "_location": "/strapi-plugin-email",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-email@3.6.6",
+    "name": "strapi-plugin-email",
+    "escapedName": "strapi-plugin-email",
+    "rawSpec": "3.6.6",
+    "saveSpec": null,
+    "fetchSpec": "3.6.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.6.6.tgz",
+  "_spec": "3.6.6",
+  "_where": "D:\\dev\\Javascript\\barratt-knowledge-hub-cms",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "https://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "strapi-provider-email-sendmail": "3.6.6",
+    "strapi-utils": "3.6.6"
+  },
+  "description": "Easily configure your Strapi application to send emails.",
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "strapi-helper-plugin": "3.6.6"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "e63fb9d5093de3c099a487e7d87f48ffb8029a24",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "https://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-email",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description",
+    "required": true
+  },
+  "version": "3.6.6"
+}
