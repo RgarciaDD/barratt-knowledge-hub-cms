@@ -2,7 +2,7 @@
   "_args": [
     [
       "strapi-plugin-content-type-builder@3.6.6",
-      "D:\\dev\\Javascript\\barratt-knowledge-hub-cms"
+      "F:\\GoogleDrive\\Github Repositories\\Javascript\\KnowledgeHub\\barratt-knowledge-hub-cms"
     ]
   ],
   "_from": "strapi-plugin-content-type-builder@3.6.6",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.6.6.tgz",
   "_spec": "3.6.6",
-  "_where": "D:\\dev\\Javascript\\barratt-knowledge-hub-cms",
+  "_where": "F:\\GoogleDrive\\Github Repositories\\Javascript\\KnowledgeHub\\barratt-knowledge-hub-cms",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
